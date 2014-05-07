@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Select your vicinity"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/bAdd"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="19dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:text="OK"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/RadioButton01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_centerVertical="true"
+        android:checked="false"
+        android:gravity="center"
+        android:text="within 3km"
+        android:textSize="25dp" />
+
+    <RadioButton
+        android:id="@+id/RadioButtonVicinityPerimeter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/RadioButton01"
+        android:layout_below="@+id/RadioButtonCategory"
+        android:layout_marginTop="42dp"
+        android:checked="false"
+        android:gravity="center"
+        android:text="within 2km"
+        android:textSize="25dp" />
+
+    <RadioButton
+        android:id="@+id/RadioButton02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/RadioButton01"
+        android:layout_below="@+id/RadioButton01"
+        android:layout_marginTop="44dp"
+        android:checked="false"
+        android:gravity="center"
+        android:text="larger than 3km"
+        android:textSize="25dp" />
+
+    <RadioButton
+        android:id="@+id/RadioButtonCategory"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/RadioButtonVicinityPerimeter"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="36dp"
+        android:checked="true"
+        android:gravity="center"
+        android:text="within 1km"
+        android:textSize="25dp" />
+
+</RelativeLayout>

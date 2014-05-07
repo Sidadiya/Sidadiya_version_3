@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Select Catogories"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioButton
+        android:id="@+id/RadioButtonFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewSelect"
+        android:layout_marginTop="20dp"
+        android:checked="true"
+        android:gravity="center"
+        android:text="Food and Drinks"
+        android:textSize="25dp" />
+
+    <RadioButton
+        android:id="@+id/RadioButtonEvents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/RadioButtonFood"
+        android:layout_marginTop="19dp"
+        android:checked="false"
+        android:gravity="center"
+        android:text="Events and Activities"
+        android:textSize="25dp" />
+    
+    <RadioButton
+        android:id="@+id/RadioButtonBeauty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/RadioButtonEvents"
+        android:layout_marginTop="18dp"
+        android:checked="true"
+        android:gravity="center"
+        android:text="Beauty and Spas"
+        android:textSize="25dp" />
+    
+    <RadioButton
+        android:id="@+id/RadioButtonHealth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/RadioButtonBeauty"
+        android:layout_marginTop="17dp"
+        android:checked="false"
+        android:gravity="center"
+        android:text="Health and Fitness"
+        android:textSize="25dp" />
+
+    <RadioButton
+        android:id="@+id/RadioButtonAutomotive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/RadioButtonHealth"
+        android:layout_marginTop="16dp"
+        android:checked="false"
+        android:gravity="center"
+        android:text="Automotive"
+        android:textSize="25dp" />
+
+    <RadioButton
+        android:id="@+id/RadioButtonShopping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/RadioButtonAutomotive"
+        android:layout_marginTop="15dp"
+        android:checked="true"
+        android:gravity="center"
+        android:text="Shopping"
+        android:textSize="25dp" />
+    
+    <RadioButton
+        android:id="@+id/RadioButtonFashion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/RadioButtonShopping"
+        android:layout_marginTop="14dp"
+        android:checked="false"
+        android:gravity="center"
+        android:text="Fashion"
+        android:textSize="25dp" />
+</RelativeLayout>
